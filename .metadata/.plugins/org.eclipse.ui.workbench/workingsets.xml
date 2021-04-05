@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1617641377973_0" label="HQL_Demo" name="HQL_Demo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HQL_Demo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1617641503197_1" label="NoteTaker" name="NoteTaker">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/NoteTaker" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1617641573395_2" label="springDemo" name="springDemo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springDemo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1617641598474_3" label="springJDBC" name="springJDBC">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springJDBC" type="4"/>
+</workingSet>
+</workingSetManager>
