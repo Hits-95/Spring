@@ -12,4 +12,5 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1617641598474_3" label="springJDBC" name="springJDBC">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springJDBC" type="4"/>
 </workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1617691850961_4" label="Window Working Set" name="Aggregate for window 1617691850959"/>
 </workingSetManager>
