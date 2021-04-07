@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=springDemo/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-orm\/3.1.2.RELEASE\/spring-orm-3.1.2.RELEASE.jar&lt;org.springframework.orm.hibernate3(HibernateTemplate.class[HibernateTemplate" modifiers="33" timestamp="1616730128662"/>
+<typeInfo handle="=springDemo/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-orm\/3.1.2.RELEASE\/spring-orm-3.1.2.RELEASE.jar&lt;org.springframework.orm.hibernate3(LocalSessionFactoryBean.class[LocalSessionFactoryBean" modifiers="33" timestamp="1616730128662"/>
+<typeInfo handle="=SpringORM/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-orm\/5.3.2\/spring-orm-5.3.2.jar&lt;org.springframework.orm.hibernate5(LocalSessionFactoryBean.class[LocalSessionFactoryBean" modifiers="33" timestamp="1616955796175"/>
+<typeInfo handle="=SpringORM/C:\/Users\/Hit's\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.3.Final\/hibernate-core-5.4.3.Final.jar&lt;org.hibernate.dialect(MySQL57Dialect.class[MySQL57Dialect" modifiers="33" timestamp="1617695063898"/>
+<typeInfo handle="=HQL_Demo/C:\/Users\/Hit's\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.5.Final\/hibernate-core-5.4.5.Final.jar&lt;org.hibernate.dialect(MySQL57Dialect.class[MySQL57Dialect" modifiers="33" timestamp="1616994734589"/>
+<typeInfo handle="=springJDBC/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.2\/spring-jdbc-5.3.2.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1616846732492"/>
+<typeInfo handle="=springDemo/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-orm\/3.1.2.RELEASE\/spring-orm-3.1.2.RELEASE.jar&lt;org.springframework.orm.hibernate3(HibernateTransactionManager.class[HibernateTransactionManager" modifiers="33" timestamp="1616730128662"/>
+<typeInfo handle="=SpringORM/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-orm\/5.3.2\/spring-orm-5.3.2.jar&lt;org.springframework.orm.hibernate5(HibernateTransactionManager.class[HibernateTransactionManager" modifiers="33" timestamp="1616955796175"/>
+</typeInfoHistroy>

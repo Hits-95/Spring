@@ -40,3 +40,7 @@
 01-Apr-2021 22:38:28.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0_Tomcat9_Hitesh\webapps\ROOT] has finished in [145] ms
 01-Apr-2021 22:38:28.575 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8799"]
 01-Apr-2021 22:38:28.650 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9803] milliseconds
+02-Apr-2021 21:46:55.919 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8799"]
+02-Apr-2021 21:46:55.962 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Apr-2021 21:46:56.087 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8799"]
+02-Apr-2021 21:46:56.182 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8799"]

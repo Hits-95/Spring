@@ -1,0 +1,13 @@
+[2021-04-02 21:47:07] [info]  [ 6268] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2021-04-02 21:47:08] [info]  [ 6268] Running Service 'Tomcat9_Hitesh'...
+[2021-04-02 21:47:08] [info]  [ 6720] Starting service...
+[2021-04-02 21:47:08] [error] [ 6720] Invalid RuntimeLib specified 'C:\Program Files\Java\jdk-16\bin\server\jvm.dll'
+[2021-04-02 21:47:08] [error] [ 6720] The system cannot find the path specified.
+[2021-04-02 21:47:08] [error] [ 6720] Failed to load JVM DLL 'C:\Program Files\Java\jdk-16\bin\server\jvm.dll', home ''.
+[2021-04-02 21:47:09] [error] [ 6720] The system cannot find the path specified.
+[2021-04-02 21:47:09] [error] [ 6720] Failed creating Java 'C:\Program Files\Java\jdk-16\bin\server\jvm.dll'.
+[2021-04-02 21:47:09] [error] [ 6720] The system cannot find the path specified.
+[2021-04-02 21:47:09] [error] [ 6720] ServiceStart returned 1.
+[2021-04-02 21:47:09] [error] [ 6720] The system cannot find the path specified.
+[2021-04-02 21:47:09] [info]  [ 6268] Run service finished.
+[2021-04-02 21:47:09] [info]  [ 6268] Apache Commons Daemon procrun finished.
