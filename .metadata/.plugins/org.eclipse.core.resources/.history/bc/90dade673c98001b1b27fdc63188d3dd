@@ -1,0 +1,14 @@
+package springMVC.Controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+public class ContactController {
+
+	@RequestMapping(path = "/contact", method = RequestMethod.GET)
+	public String contact(){
+		System.out.println("contact run....");
+		return "contact";
+		
+	}
+}

@@ -1,0 +1,8 @@
+package springMVC.Controller;
+
+public class ContactController {
+
+	public String contact(){
+		
+	}
+}
