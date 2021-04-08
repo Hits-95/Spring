@@ -61,6 +61,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\codes\Spring"/>
+			<item value="D:\codes\spring_MVC"/>
 			<item value="D:\codes\Spring\NoteTaker"/>
 			<item value="D:\codes\Spring\SpringORM\src\main\java\com\Spring\ORM\App.java"/>
 			<item value="D:\codes\Spring\Servers"/>
@@ -76,9 +78,11 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.Spring.MVC.spring_mvc"/>
 			<item value="com.Spring.MVC.springMVC"/>
+			<item value="com.Spring.MVC.spring_MVC"/>
+			<item value="com.Spring.MVC.Spring_MVC"/>
 			<item value="com.Spring.MVC"/>
+			<item value="com.Spring.MVC.spring_mvc"/>
 			<item value="com.Spring.ORM"/>
 		</list>
 		<list key="groupId">
@@ -86,8 +90,10 @@
 			<item value="com.Spring.ORM"/>
 		</list>
 		<list key="artifactId">
-			<item value="spring_mvc"/>
 			<item value="springMVC"/>
+			<item value="spring_MVC"/>
+			<item value="Spring_MVC"/>
+			<item value="spring_mvc"/>
 			<item value="SpringORM"/>
 		</list>
 		<list key="projectNameTemplate">

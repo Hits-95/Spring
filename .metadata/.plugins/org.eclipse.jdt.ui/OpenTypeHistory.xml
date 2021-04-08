@@ -8,4 +8,6 @@
 <typeInfo handle="=springJDBC/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.2\/spring-jdbc-5.3.2.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1616846732492"/>
 <typeInfo handle="=springDemo/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-orm\/3.1.2.RELEASE\/spring-orm-3.1.2.RELEASE.jar&lt;org.springframework.orm.hibernate3(HibernateTransactionManager.class[HibernateTransactionManager" modifiers="33" timestamp="1616730128662"/>
 <typeInfo handle="=SpringORM/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-orm\/5.3.2\/spring-orm-5.3.2.jar&lt;org.springframework.orm.hibernate5(HibernateTransactionManager.class[HibernateTransactionManager" modifiers="33" timestamp="1616955796175"/>
+<typeInfo handle="=springMVC/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-webmvc\/5.3.4\/spring-webmvc-5.3.4.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1617805064913"/>
+<typeInfo handle="=springMVC/C:\/Users\/Hit's\/.m2\/repository\/org\/springframework\/spring-webmvc\/5.3.4\/spring-webmvc-5.3.4.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1617805064913"/>
 </typeInfoHistroy>
