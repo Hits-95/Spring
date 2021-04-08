@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+<%@ page isELIgnored="false" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,6 +19,9 @@
 </head>
 <body>
 	<div class="container mt-5 ">
+		<h1 class="text-center text-primary">${head }</h1>
+		<p class="text-center">${desc }</p>
+		<hr>
 		<h1 class="text-center">Registration Form</h1>
 
 		<form action="processform" method="post">
