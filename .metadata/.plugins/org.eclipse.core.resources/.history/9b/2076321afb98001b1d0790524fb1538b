@@ -13,7 +13,7 @@
 		<p>${desc }</p>
 	</div>
 	<hr>
-	<h2>${msg }</h2>
+	<h2>${user.msg }</h2>
 	<h1>WelCome, ${user.userName }</h1>
 	<h2>Your Email id is ${user.email }</h2>
 	<h2>Your password is ${user.userPassword } try to secure it.</h2>
