@@ -1,0 +1,5 @@
+package springMVC.Service;
+
+public class UserService {
+
+}

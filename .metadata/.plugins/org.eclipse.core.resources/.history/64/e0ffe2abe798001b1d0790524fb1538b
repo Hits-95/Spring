@@ -1,0 +1,12 @@
+package springMVC.Service;
+
+import springMVC.Model.User;
+
+public class UserService {
+	
+	private UserDao userDao;
+	
+	public int createUser(User user){
+		
+	}
+}

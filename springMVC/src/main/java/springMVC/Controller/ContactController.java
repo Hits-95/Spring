@@ -1,5 +1,6 @@
 package springMVC.Controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -8,16 +9,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import springMVC.Model.User;
+import springMVC.Service.UserService;
 
 @Controller
 // @RequestMapping("/hitesh")
 public class ContactController {
 
-	//this method run 1st becoz it has commen data 
+	@Autowired
+	private UserService userService;
+
+	// this method run 1st becoz it has commen data
 	@ModelAttribute
 	public void commonDataForModel(Model model) {
 		model.addAttribute("head", "Spring MVC Code");
-		model.addAttribute("desc", "code with Hitesh Ahire Code");
+		model.addAttribute("desc", "- code with <i>Hitesh Ahire</i> ");
 	}
 
 	@RequestMapping(path = "/contact", method = RequestMethod.GET)
@@ -30,8 +35,8 @@ public class ContactController {
 
 	@RequestMapping(path = "/processform", method = RequestMethod.POST)
 	public String handleForm(@ModelAttribute User user, Model model) {
-
 		System.out.println(user);
+		userService.createUser(user);
 		return "success";
 	}
 

@@ -1,5 +1,0 @@
-package springMVC.Controller;
-
-public class ContactController {
-
-}

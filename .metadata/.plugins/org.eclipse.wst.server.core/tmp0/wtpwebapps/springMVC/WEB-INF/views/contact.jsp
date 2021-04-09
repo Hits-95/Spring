@@ -22,7 +22,7 @@
 		<h1 class="text-center text-primary">${head }</h1>
 		<p class="text-center">${desc }</p>
 		<hr>
-		<h1 class="text-center">Registration Form</h1>
+		<h1 class="m-3">Registration Form</h1>
 
 		<form action="processform" method="post">
 			<div class="mb-3">
