@@ -1,0 +1,22 @@
+package springMVC.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+//@RequestMapping("/hitesh")
+public class RedirectController {
+
+	
+	@RequestMapping("/one")
+	public String one(){
+		System.out.println("one handler was called.");
+		return"";
+	}
+	
+	@RequestMapping("/two")
+	public String two(){
+		System.out.println("two handler was called.");
+		return"";
+	}
+}
