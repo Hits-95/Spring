@@ -78,6 +78,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Spring.Search.SpringMVC_Search"/>
 			<item value="com.Spring.MVC.springMVC"/>
 			<item value="com.Spring.MVC.spring_MVC"/>
 			<item value="com.Spring.MVC.Spring_MVC"/>
@@ -86,10 +87,12 @@
 			<item value="com.Spring.ORM"/>
 		</list>
 		<list key="groupId">
+			<item value="com.Spring.Search"/>
 			<item value="com.Spring.MVC"/>
 			<item value="com.Spring.ORM"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringMVC_Search"/>
 			<item value="springMVC"/>
 			<item value="spring_MVC"/>
 			<item value="Spring_MVC"/>

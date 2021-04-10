@@ -1,0 +1,16 @@
+package SpringMVC_Search;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class Student {
+	private String name;
+	private Long id;
+	private Date bdate;
+	private List<String> course;
+	private String gender;
+	private String type;
+}

@@ -1,0 +1,25 @@
+package SpringMVC_Search;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class FormController {
+
+	@RequestMapping(path = "/complex", method = RequestMethod.GET)
+	public String showForm() {
+		return "complex_form";
+	}
+
+	@RequestMapping(path = "/handleform", method = RequestMethod.POST)
+	public String handleForm(@RequestParam("course") List<String> list) {
+		System.out.println(list);
+		return "success";
+
+	}
+
+}
