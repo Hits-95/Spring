@@ -23,7 +23,7 @@ public class SearchController {
 
 		if (query.isEmpty()) {
 			redirectView.setUrl("home");
-			System.out.println("query has empty... ");
+			System.out.println("in if");
 			return redirectView;
 		}
 		String url = "https://www.google.com/search?q=" + query;

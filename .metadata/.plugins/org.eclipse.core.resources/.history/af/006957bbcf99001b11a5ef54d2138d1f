@@ -16,17 +16,12 @@ public class SearchController {
 	}
 
 	@RequestMapping("/search")
-	public RedirectView search(@RequestParam("querybox") String query) {
-
+	public RedirectView search(@RequestParam("querybox") String query){
+		
 		System.out.println("search was called..");
+		String url = "https://www.google.com/search?q=" + query ;
 		RedirectView redirectView = new RedirectView();
-
-		if (query.isEmpty()) {
-			redirectView.setUrl("home");
-			System.out.println("query has empty... ");
-			return redirectView;
-		}
-		String url = "https://www.google.com/search?q=" + query;
+		
 		redirectView.setUrl(url);
 		return redirectView;
 	}
