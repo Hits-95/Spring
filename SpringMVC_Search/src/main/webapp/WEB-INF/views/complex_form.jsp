@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     <%@include file="link.jsp"%>
@@ -12,10 +13,13 @@
 <body class="bg-secondary bg-gradient ">
   <div class="container">
 
-    <div class="card mx-auto mt-5 border border-info border border-4" style="width: 40%;">
+    <div class="card mx-auto mt-5 border border-info border border-4" style="width: 60%;">
       <div class="card-body bg-light">
         <h4 class="card-title text-center text-primary "><strong>Complex Form</strong></h4>
-        <hr>
+        <!--  handle error -->
+        <div class="alert alert-danger" role="alert">
+        	<form:errors path = "student.*"/>
+		</div>
 
         <form action="handleform" method="post">
           <div class="mb-3">
@@ -65,6 +69,19 @@
               <option>Old Student</option>
               <option>Normal Student</option>
             </select>
+          </div>
+          
+          <div class="card">
+          	<div class = "card-body">
+          		<p> Your Address </p>
+          		<div class="form-group">
+          			<input type="text" name ="address.street"class="form-control" placeholder="Enter Street"/s>
+          		</div>
+          		<br>
+          		<div class="form-group">
+          			<input type="text"  name ="address.city" class="form-control" placeholder="Enter City"/s>
+          		</div>
+          	</div>
           </div>
 
           <div class="container text-center py-2">
