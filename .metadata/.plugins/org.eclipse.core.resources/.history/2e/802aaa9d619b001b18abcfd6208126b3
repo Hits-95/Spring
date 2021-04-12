@@ -1,0 +1,12 @@
+<%@include file="link.jsp"%>
+<html>
+<head>
+
+<title>File Upload Success</title>
+</head>
+<body>
+<div class = "container">
+	
+</div>
+</body>
+</html>

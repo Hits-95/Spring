@@ -1,0 +1,11 @@
+package SpringMVC_Search;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class FileUploadForm {
+
+	public String showUploadForm(){
+		
+	}
+}

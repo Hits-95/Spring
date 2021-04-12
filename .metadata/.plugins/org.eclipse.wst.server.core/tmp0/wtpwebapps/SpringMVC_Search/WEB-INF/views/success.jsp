@@ -10,6 +10,8 @@
 <body>
 
 <h2> Student Name : ${student.name }</h2>
+<h1> Street :  ${student.address.street}</h1>
+
 <p> all data : ${ student }</p>
 </body>
 </html>

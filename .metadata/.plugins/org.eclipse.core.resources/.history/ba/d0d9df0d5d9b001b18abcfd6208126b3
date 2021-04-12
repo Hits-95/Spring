@@ -1,0 +1,23 @@
+<%@include file="link.jsp"%>
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Upload-img</title>
+</head>
+<body>
+	<div class="container p-4">
+		<h1>Upload Form</h1>
+		<form>
+			<div class="input-group mb-3">
+				<label class="input-group-text" for="inputGroupFile01">Select your image</label>
+				<input type="file" name = "profile" class="form-control" id="inputGroupFile01">
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+package SpringMVC_Search;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class FileUploadForm {
+
+	@RequestMapping("/fileform")
+	public String showUploadForm(){
+		return "file_form";
+		
+	}
+	
+	//@RequestMapping(path = "/uploadimage", method = RequestMethod.POST)
+	//you can use path as value both are same....
+	@RequestMapping(value = "/uploadimage", method = RequestMethod.POST)
+	public String fileUpload(){
+		System.out.println("upload called...");
+		return "filesuccess";
+	}
+}

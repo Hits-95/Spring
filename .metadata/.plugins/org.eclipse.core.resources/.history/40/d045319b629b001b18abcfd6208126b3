@@ -1,0 +1,15 @@
+<%@include file="link.jsp"%>
+<html>
+<head>
+
+<title>File Upload Success</title>
+</head>
+<body>
+	<div class="container me-md-3">
+		<div class="alert alert-success " role="alert">
+			<h2> File uploaded</h2>
+			
+		</div>
+	</div>
+</body>
+</html>

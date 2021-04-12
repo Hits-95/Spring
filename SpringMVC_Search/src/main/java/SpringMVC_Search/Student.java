@@ -11,10 +11,11 @@ public class Student {
 	private String name;
 	private Long id;
 
-	@DateTimeFormat(pattern = "dd-MM-yyyy")
+	//@DateTimeFormat(pattern = "dd-MM-yyyy")
 	private Date bdate;
 
 	private List<String> course;
+	
 	private String gender;
 	private String type;
 

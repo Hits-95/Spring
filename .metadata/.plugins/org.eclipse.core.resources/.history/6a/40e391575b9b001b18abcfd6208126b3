@@ -1,0 +1,9 @@
+package SpringMVC_Search;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public enum FileUploadController {
+
+	
+}

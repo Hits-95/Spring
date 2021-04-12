@@ -26,6 +26,7 @@ public class SearchController {
 			System.out.println("query has empty... ");
 			return redirectView;
 		}
+		
 		String url = "https://www.google.com/search?q=" + query;
 		redirectView.setUrl(url);
 		return redirectView;
