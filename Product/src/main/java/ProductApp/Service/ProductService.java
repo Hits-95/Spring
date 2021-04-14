@@ -14,9 +14,9 @@ public class ProductService {
 	@Autowired
 	private ProductDao productDao;
 
-	// create product service
-	public int createProduct(Product product) {
-		return this.productDao.createProduct(product);
+	// create product service or update product
+	public void createProduct(Product product) {
+		 this.productDao.createProduct(product);
 	}
 
 	// get list of product
