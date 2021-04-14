@@ -1,0 +1,25 @@
+package InterceptorExample;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+// interface  - HandlerInterceptor preHandl, postHandl, preHandl, afterCompletion  this are abstract methods
+// classs - HandlerInterceptorAdaptor
+
+public class MyInterceptor extends HandlerInterceptorAdapter {
+
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+			throws Exception {
+		System.out.println("This is PriHandler method");
+
+		if (request.getParameter("user").startsWith("h")) {
+
+			return false;
+		}
+		return true;
+	}
+
+}

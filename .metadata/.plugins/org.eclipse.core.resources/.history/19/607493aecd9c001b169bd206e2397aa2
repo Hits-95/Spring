@@ -1,0 +1,14 @@
+package ProductApp.Service;
+
+import ProductApp.Dao.ProductDao;
+import ProductApp.Model.Product;
+
+public class ProductService {
+
+	private ProductDao productDao = new ProductDao();
+
+	// create product service
+	public int createProduct(Product product) {
+		return this.productDao.createProduct(product);
+	}
+}

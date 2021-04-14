@@ -1,0 +1,8 @@
+package ProductApp.Service;
+
+import ProductApp.Dao.ProductDao;
+
+public class ProductService {
+
+	private ProductDao productDao = new ProductDao();
+}

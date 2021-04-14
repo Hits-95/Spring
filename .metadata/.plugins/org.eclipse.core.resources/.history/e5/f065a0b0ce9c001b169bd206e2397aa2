@@ -1,0 +1,40 @@
+package ProductApp.Controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.view.RedirectView;
+
+import ProductApp.Model.Product;
+
+@Controller
+public class MainController {
+
+	@RequestMapping("/")
+	public String home() {
+		return "index";
+	}
+
+	// ahow add product form
+	@RequestMapping(value = "/add-product", method = RequestMethod.GET)
+	public String addProduct(Model model) {
+		model.addAttribute("title", "Add-Product");
+		return "add_product_form";
+	}
+
+	// handle product l.e add
+
+	@RequestMapping(value = "/handle-product", method = RequestMethod.POST)
+	public RedirectView handleProduct(@ModelAttribute Product product, HttpServletRequest request) {
+
+		System.out.println(product);
+
+		RedirectView redirectView = new RedirectView();
+		redirectView.setUrl(request.getContextPath() + "/");
+		return redirectView;
+	}
+}

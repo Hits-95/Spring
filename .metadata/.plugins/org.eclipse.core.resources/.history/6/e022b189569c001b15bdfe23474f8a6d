@@ -1,0 +1,5 @@
+package ProductApp.Dao;
+
+public class ProductDao {
+
+}

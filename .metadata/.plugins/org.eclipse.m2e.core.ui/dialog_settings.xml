@@ -61,6 +61,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\codes\Spring\SpringMVC_Search\src\main\java\SpringMVC_Search\MyExceptionHandler.java"/>
 			<item value="D:\codes\Spring"/>
 			<item value="D:\codes\spring_MVC"/>
 			<item value="D:\codes\Spring\NoteTaker"/>
@@ -78,6 +79,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Spring.App.Product"/>
+			<item value="com.Spring.Interceptor.InterceptorExample"/>
 			<item value="com.Spring.Search.SpringMVC_Search"/>
 			<item value="com.Spring.MVC.springMVC"/>
 			<item value="com.Spring.MVC.spring_MVC"/>
@@ -87,11 +90,15 @@
 			<item value="com.Spring.ORM"/>
 		</list>
 		<list key="groupId">
+			<item value="com.Spring.App"/>
+			<item value="com.Spring.Interceptor"/>
 			<item value="com.Spring.Search"/>
 			<item value="com.Spring.MVC"/>
 			<item value="com.Spring.ORM"/>
 		</list>
 		<list key="artifactId">
+			<item value="Product"/>
+			<item value="InterceptorExample"/>
 			<item value="SpringMVC_Search"/>
 			<item value="springMVC"/>
 			<item value="spring_MVC"/>

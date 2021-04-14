@@ -1,0 +1,9 @@
+package InterceptorExample;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+
+// interface  - HandlerInterceptor preHandl, postHandl, preHandl, afterCompletion
+
+public class MyInterceptor implements HandlerInterceptor {
+
+}

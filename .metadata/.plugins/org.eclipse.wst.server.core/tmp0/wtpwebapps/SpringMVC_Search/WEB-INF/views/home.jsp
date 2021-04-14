@@ -17,7 +17,7 @@
 </head>
 <body>
 	<div class="container">
-
+		
 		<img  class="img-fluid mx-50" style="height: 20px;" alt="My-Image"s src="<c:url value = "/resources/image/thor.jpg"/>">
 
 		<div class="card mx-auto mt-5 bg-primary" style="width:50%;">

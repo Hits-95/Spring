@@ -1,0 +1,10 @@
+package InterceptorExample;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+
+// interface  - HandlerInterceptor preHandl, postHandl, preHandl, afterCompletion  this are abstract methods
+// classs - HandlerInterceptorAdaptor
+
+public class MyInterceptor extends HandlerInterceptorAdapter {
+
+}

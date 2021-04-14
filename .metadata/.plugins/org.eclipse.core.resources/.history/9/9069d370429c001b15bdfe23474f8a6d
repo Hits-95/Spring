@@ -1,0 +1,10 @@
+package InterceptorExample;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+
+// interface  - HandlerInterceptor preHandl, postHandl, preHandl, afterCompletion  this are abstract methods
+//calss
+
+public class MyInterceptor implements HandlerInterceptor {
+
+}

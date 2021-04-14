@@ -1,0 +1,20 @@
+package InterceptorExample;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController {
+
+	@RequestMapping("/home")
+	public String home() {
+		System.out.println("home called");
+		return "test";
+	}
+	
+	//handler for requst 
+	@RequestMapping("/welcome")
+	public String welcome(){
+		return "welcome";
+	}
+}
