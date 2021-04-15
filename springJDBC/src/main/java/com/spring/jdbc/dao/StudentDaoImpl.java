@@ -11,19 +11,18 @@ import org.springframework.stereotype.Component;
 
 import com.spring.jdbc.entites.Student;
 
-
 @Component("studentDao")
 public class StudentDaoImpl implements StudentDao {
 
-	@Autowired //set value here or in setJdbcTemplate() method
+	@Autowired // set value here or in setJdbcTemplate() method
 	private JdbcTemplate jdbcTemplate;
-	
+
 	private String query;
 
 	public JdbcTemplate getJdbcTemplate() {
 		return jdbcTemplate;
 	}
-	
+
 	@Autowired
 	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
 		this.jdbcTemplate = jdbcTemplate;
@@ -71,16 +70,16 @@ public class StudentDaoImpl implements StudentDao {
 				student.setId(rs.getInt(1));
 				student.setNaem(rs.getString(2));
 				student.setCity(rs.getString(3));
-				
+
 				System.out.println(rowNum);
 				return student;
 			}
 		}, studentId);
 	}
 
-	//get all students data 
+	// get all students data
 	public List<Student> getAllStudents() {
-		
+
 		query = "SELECT * FROM student";
 		return this.jdbcTemplate.query(query, new RowMapperImpl());
 	}

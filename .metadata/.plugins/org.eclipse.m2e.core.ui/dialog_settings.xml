@@ -33,6 +33,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Hit&apos;s\Downloads\Spring_demo\Spring_demo"/>
+			<item value="C:\Users\Hit&apos;s\Downloads\spring_boot\spring_boot"/>
 			<item value="D:\codes\Spring\springJDBC"/>
 			<item value="D:\codes\Spring\springDemo"/>
 			<item value="D:\codes\Spring\NoteTaker"/>
@@ -79,6 +81,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.AOP.AOP_concept"/>
 			<item value="com.Spring.App.Product"/>
 			<item value="com.Spring.Interceptor.InterceptorExample"/>
 			<item value="com.Spring.Search.SpringMVC_Search"/>
@@ -90,6 +93,7 @@
 			<item value="com.Spring.ORM"/>
 		</list>
 		<list key="groupId">
+			<item value="com.AOP"/>
 			<item value="com.Spring.App"/>
 			<item value="com.Spring.Interceptor"/>
 			<item value="com.Spring.Search"/>
@@ -97,6 +101,7 @@
 			<item value="com.Spring.ORM"/>
 		</list>
 		<list key="artifactId">
+			<item value="AOP_concept"/>
 			<item value="Product"/>
 			<item value="InterceptorExample"/>
 			<item value="SpringMVC_Search"/>
